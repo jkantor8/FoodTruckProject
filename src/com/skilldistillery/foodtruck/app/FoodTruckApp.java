@@ -38,7 +38,7 @@ public class FoodTruckApp {
 		}
 //Loop for menu options
 		while (true) {
-			System.out.println("Make a selection:");
+			System.out.println("\nMake a selection:");
 			System.out.println("Enter 1 to list food trucks");
 			System.out.println("Enter 2 to show average rating for all food trucks");
 			System.out.println("Enter 3 to show highest-rated food truck");
