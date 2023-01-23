@@ -20,7 +20,7 @@ public class FoodTruckApp {
 
 		// Loop to prompt user for food truck info *User story 1
 		while (numberOfTrucks < MAX_TRUCKS) {
-			System.out.println("Enter a food truck name or type 'quit' to exit app:");
+			System.out.println("Enter a food truck name or type 'quit' to end food truck entries:");
 
 			String truckName = input.nextLine();
 			if (truckName.equalsIgnoreCase("quit")) {
